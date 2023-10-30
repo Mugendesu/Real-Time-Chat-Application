@@ -1,3 +1,5 @@
+Read this in code not in preview or else you might not understand
+
 first download the required files 
 In the terminal type :- 
 npm i nodemon
