@@ -1,5 +1,7 @@
 first download the required files 
-In the terminal type :- npm i nodemon
+In the terminal type :- 
+npm i nodemon
+npm i express
 npm i socket.io
 
 then start the server by typing :- npm run dev
