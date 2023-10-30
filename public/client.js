@@ -5,8 +5,6 @@ let messageArea = document.querySelector('.message__area');
 let btn = document.getElementById('btn')
 do {
     name = prompt('Please enter your name: ')
-    console.log(`${name} has joined the chat`)
-    socket.broadcast.emit(name)
 } while(!name)
 
 textarea.addEventListener('keyup', (e) => {
