@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterWebChat App</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/ayaka.png" />
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/ayaka.png" alt="Error">
+            <h1>InterWebChat</h1>
+        </div>
+        <div class="message__area"></div>
+        <div class="textMain" style="margin: 11px">
+            <input type="text" placeholder="Write a message..." id="textarea" />
+            <button id="btn" type="submit"><ion-icon name="send"></ion-icon></button>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
